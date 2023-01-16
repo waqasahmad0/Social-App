@@ -1,0 +1,70 @@
+ul li p{
+    font-weight: bold;
+    font-size:14px;
+    font-weight:700;
+    cursor: pointer;
+  }
+  ul li img{
+    margin-top: 10px;
+    border-radius: 25px;
+  }
+  .superNav {
+    font-size:13px;
+  }
+  .form-control {
+    outline:none !important;
+    box-shadow: none !important;
+  }
+  @media screen and (max-width:540px){
+    .centerOnMobile {
+      text-align:center
+    }
+  }
+  /* Posts CSS */
+  #showPosts{
+    margin-top: 20px;
+}
+svg{
+    margin-right: 3px;
+}
+#postMain{
+    padding: 10px;
+    box-shadow: 0 0 10px;
+}
+#postBody{
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
+}
+.date{
+  font-size: 11px
+}
+.comment-text{
+  font-size: 12px
+}
+.fs-12{
+  font-size: 12px
+}
+.shadow-none{
+  box-shadow: none
+}
+.name{
+  color: #007bff
+}
+.cursor:hover{
+  color: blue
+}
+.cursor{
+  cursor: pointer
+}
+.textarea{
+  resize: none
+}
+#cmntUpdateInput{
+  margin-top: 5px;
+  border-radius: 5px;
+  margin-bottom: 5px;
+  /* display: none; */
+}
+#cmntUpdateButton{
+  /* display: none; */
+}

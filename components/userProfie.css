@@ -1,0 +1,46 @@
+img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .bg-black {
+    background: #000;
+  }
+  
+  .skill-block {
+    width: 50%;
+  }
+  @media (min-width: 991px) and (max-width:1200px) {
+    .skill-block {
+      padding: 32px !important;
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    .skill-block {
+      padding: 56px !important;
+    }
+  }
+  /* navbar css */
+  ul li p{
+    font-weight: bold;
+    font-size:14px;
+    font-weight:700;
+    cursor: pointer;
+  }
+  ul li img{
+    margin-top: 10px;
+    border-radius: 25px;
+  }
+  .superNav {
+    font-size:13px;
+  }
+  .form-control {
+    outline:none !important;
+    box-shadow: none !important;
+  }
+  @media screen and (max-width:540px){
+    .centerOnMobile {
+      text-align:center
+    }
+  }
